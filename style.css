@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #014E56;
+    background-color: #FFFFFF;
+    font-family: 'Livvic', sans-serif;
+}
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+}
+
+/* Header style start */
+/* The header style */
+.header {
+    padding: 77px 165px 40px;
+    background-color: #014E56;
+}
+/* The header top style */
+.header-top {
+    display: flex;
+    max-width: 1110px;
+    justify-content: space-between;
+
+}
+
+.navigation {
+    padding: .8rem;
+}
+
+.navigation a {
+    display: inline-block;
+    margin-left: 4rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+} 
+
+.top-left {
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+/* The header-top button style */ 
+.btn {
+    cursor: pointer;
+    padding: 1.1rem 3.3rem;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 2.4rem;
+    outline: none;
+}
+.btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+/* The header-bottom style */
+.header-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12rem;
+}
+
+.header-bottom-right {
+    max-width: 73rem;
+    margin-left:  15rem;
+}
+
+.header-bottom-right p {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.line {
+    position: relative;
+    top: -3rem;
+    left: 19%;
+    width: 20rem;
+    height: .4rem;
+    background-color: #F67E7E;
+}
+
+.red-disk img {
+    position: relative;
+    top: 20%;
+    left: calc(100% + 65px);
+}
+/* Header style end */
+
+/* Main style start */
+/* The main style */
+.main {
+    padding: 0 10rem 16.5rem;
+    background-color: #004047;
+}
+/* The main top style */
+.main-item{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: .4.8rem;
+    color: #FFFFFF;
+}
+
+.red-disk-main img {
+    position: relative;
+    top: 0;
+    left: -10rem;
+}
+
+/* The main inside wrapper style */
+.wrapper {
+    max-width: 11rem;
+    margin: auto;
+}
+
+.box {
+    max-width: 11rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-childs {
+    text-align: center;
+    margin-right: 3rem;
+    margin-top: 7.6rem;
+    padding:3.8rem 12.7rem;
+    background-color: #012F34;
+}
+
+/* The box childs-items style */
+.box-childs img:nth-child(1) {
+    border: 2px solid #C4FFFE;
+    border-radius: 50%;
+}
+
+.box-childs-top {
+    color: #79C8C7;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.box-childs-bottom {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+
+.box-child-plus {
+    position: relative;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.red-disk3 {
+    float: right;
+}
+
+.red-disk3 img {
+    position: relative;
+    top: 0;
+    left: 68%;
+    margin-top: 62px;
+}
+
+.middle {
+    padding-bottom: 15rem;
+    background-color: #012F34;
+}
+.middle-bottom {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-bottom a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+.middle2 {
+    padding: 0 0 15rem 0;
+    background-color: #F67E7E;
+}
+
+.red-disk5 img{
+    position: relative;
+    top: 213px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.middle2-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-color {
+    border: 2px solid #012F34;
+}
+
+.btn-color a {
+    color: #012F34;
+}
+
+.footer {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 4.8rem 16.5rem;
+    background-color: #002529;
+}
+
+.footer-link {
+    display: inline-block;
+    margin: 2.5rem 4rem 0 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.fab {
+    cursor: pointer;
+    margin-right: 1.6rem;
+    float: right;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
